@@ -597,7 +597,11 @@ body {
         margin-right: 15px;
     }
     
-    
+    .botones {
+        display: flex;
+        width: auto;
+        margin-bottom: 200px;
+    }
 
 }
 
