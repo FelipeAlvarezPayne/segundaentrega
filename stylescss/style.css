@@ -422,7 +422,7 @@ body {
         font-size: 14px;
         padding: 10px 10px;
         }
-    }
+    
     .fondoimagen {
         width: 90%;
         margin-left: 15px;
@@ -439,8 +439,48 @@ body {
         width: auto;
         margin-bottom: 200px;
     }
+    /*SECCIÓN SERVICIOS*/
+    .section-servicios {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #contenido-servicios {
+        height: auto;
+    }
+    .proyectos {
+        margin: 0;
+        gap: 40px;
+    }
+    .proyectos__box {
+        display: grid;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .box {
+        width: auto;
+        
+    }
+    .boximg {
+        width: 200px;
+        border: none;
+    }
+    .box-text {
+        margin: auto;
+        text-align: justify;
+    }
+    .box-text__title {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 
-    
+}
     @media only screen and (min-width: 416px) and (max-width: 769px) {
     
     .footer__container {
@@ -525,6 +565,49 @@ body {
         width: auto;
         margin-bottom: 200px;
     }
+
+    /*SECCIÓN SERVICIOS*/
+    /*SECCIÓN SERVICIOS*/
+    .section-servicios {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #contenido-servicios {
+        height: auto;
+    }
+    .proyectos {
+        margin: 0;
+        gap: 40px;
+    }
+    .proyectos__box {
+        display: grid;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .box {
+        width: auto;
+        
+    }
+    .boximg {
+        width: 200px;
+        border: none;
+    }
+    .box-text {
+        margin: auto;
+        text-align: justify;
+    }
+    .box-text__title {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
 }
 @media only screen and (min-width: 769px) and (max-width: 1360px) {
     .footer__container {
@@ -554,6 +637,8 @@ body {
     .compu {
         margin-bottom: 200px;
     }
+
+    /*SECCION SOBREMI*/
     .section-sobremi {
         display: grid;
         grid-template-rows: auto;
@@ -602,8 +687,97 @@ body {
         width: auto;
         margin-bottom: 200px;
     }
-
+    
+    /*SECCIÓN SERVICIOS*/
+    .section-servicios {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #contenido-servicios {
+        height: auto;
+    }
+    .proyectos {
+        margin: 0;
+        gap: 40px;
+    }
+    .proyectos__box {
+        display: grid;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .box {
+        width: auto;
+        
+    }
+    .boximg {
+        width: 200px;
+        border: none;
+    }
+    .box-text {
+        margin: auto;
+        text-align: justify;
+    }
+    .box-text__title {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
 }
+    @media only screen and (min-width: 1360px) and (max-width: 1800px) {
+    .footer__container {
+        position:relative;
+        }
+        /*SECCIÓN SERVICIOS*/
+    #contenido-servicios {
+        height: auto;
+    }
+    .section-servicios {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #contenido-servicios {
+        height: auto;
+    }
+    .proyectos {
+        margin: 0;
+        gap: 40px;
+    }
+    .proyectos__box {
+        display: grid;
+        width: auto;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .box {
+        width: auto;
+        
+    }
+    .boximg {
+        width: 200px;
+        border: none;
+    }
+    .box-text {
+        margin: auto;
+        text-align: justify;
+    }
+    .box-text__title {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    }
+
 
 
     
