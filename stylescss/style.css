@@ -275,7 +275,7 @@ body {
 }
 
 #contenido-proyecto {
-    height: 100vh;
+    height: auto;
 }
 .tituloh1 {
     width: auto;
@@ -325,7 +325,21 @@ body {
     color:#cbae88
 }
 .Ver {
-    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Ver_text {
+    color: #D7C8B6;
+    text-decoration: none;
+    border: 2px solid #cbae88;
+    border-radius: 20px;
+    padding: 10px;
+}
+.Ver_text:hover {
+    background-color: #cbae88;
+    color: #171717;
+    
 }
 /*SERVICIOS*/
 .section-servicios {
@@ -439,6 +453,8 @@ body {
         width: auto;
         margin-bottom: 200px;
     }
+
+    
     /*SECCIÓN SERVICIOS*/
     .section-servicios {
         width: auto;
@@ -479,6 +495,41 @@ body {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
+    /*SECCION PROYECTOS*/
+    .section-proyectos {
+        width: auto;
+        height: fit-content;
+        margin: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #contenido-proyecto {
+        height: auto;
+
+    }
+    .proyectos {
+        margin: 0;
+        gap: 40px;
+    }
+    .Ver {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Ver_text {
+        color: #D7C8B6;
+        text-decoration: none;
+        border: 2px solid #cbae88;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .Ver_text:hover {
+        background-color: #cbae88;
+        color: #171717;
+        
+    }
+    
 
 }
     @media only screen and (min-width: 416px) and (max-width: 769px) {
@@ -566,12 +617,12 @@ body {
         margin-bottom: 200px;
     }
 
-    /*SECCIÓN SERVICIOS*/
+    
     /*SECCIÓN SERVICIOS*/
     .section-servicios {
         width: auto;
         height: auto;
-        margin: 20px;
+        margin: 60px;
         margin-top: 40px;
         margin-bottom: 40px;
     }
@@ -607,6 +658,42 @@ body {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+
+    /*SECCION PROYECTOS*/
+    .section-proyectos {
+        width: auto;
+        height: fit-content;
+        margin: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #contenido-proyecto {
+        height: auto;
+
+    }
+    .proyectos {
+        width: auto;
+        margin: 20px;
+        gap: 40px;
+    }
+    .Ver {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Ver_text {
+        color: #D7C8B6;
+        text-decoration: none;
+        border: 2px solid #cbae88;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .Ver_text:hover {
+        background-color: #cbae88;
+        color: #171717;
+        
+    }
+
     
 }
 @media only screen and (min-width: 769px) and (max-width: 1360px) {
@@ -728,12 +815,47 @@ body {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    /*SECCION PROYECTOS*/
+    .section-proyectos {
+        width: auto;
+        height: fit-content;
+        margin: 60px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #contenido-proyecto {
+        height: auto;
+
+    }
+    .proyectos {
+        width: auto;
+        margin: 20px;
+        gap: 40px;
+    }
+    .Ver {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Ver_text {
+        color: #D7C8B6;
+        text-decoration: none;
+        border: 2px solid #cbae88;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .Ver_text:hover {
+        background-color: #cbae88;
+        color: #171717;
+        
+    }
 }
     @media only screen and (min-width: 1360px) and (max-width: 1800px) {
     .footer__container {
         position:relative;
         }
-        /*SECCIÓN SERVICIOS*/
+    /*SECCIÓN SERVICIOS*/
+
     #contenido-servicios {
         height: auto;
     }
@@ -775,6 +897,42 @@ body {
         text-align: center;
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+
+
+    /*SECCION PROYECTOS*/
+    .section-proyectos {
+        width: auto;
+        height: fit-content;
+        margin: 100px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #contenido-proyecto {
+        height: auto;
+
+    }
+    .proyectos {
+        width: auto;
+        margin: 20px;
+        gap: 40px;
+    }
+    .Ver {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Ver_text {
+        color: #D7C8B6;
+        text-decoration: none;
+        border: 2px solid #cbae88;
+        border-radius: 20px;
+        padding: 10px;
+    }
+    .Ver_text:hover {
+        background-color: #cbae88;
+        color: #171717;
+        
     }
     }
 
