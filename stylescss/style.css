@@ -529,6 +529,24 @@ body {
         color: #171717;
         
     }
+    /*SECCION CONTACTAME*/
+    .inicio_contacto {
+        width: auto;
+        height: auto;
+        margin: 0px;
+    }
+    .inicio_contenido_CONTACTO {
+        display: grid;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center ;
+        margin-bottom: 60px;
+    }
+    .inicio_contenido_CONTACTO h1 {
+        font-size: 1.7rem;
+    }
+    
+    
     
 
 }
@@ -693,6 +711,30 @@ body {
         color: #171717;
         
     }
+    /*SECCION CONTACTAME*/
+    .inicio_contacto {
+        width: auto;
+        height: auto;
+        margin: 0px;
+    }
+    .inicio_contenido_CONTACTO {
+        display: grid;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center ;
+        margin-bottom: 60px;
+    }
+    .inicio_contenido_CONTACTO h1 {
+        font-size: 1.8rem;
+    }
+    .formulario {
+        width: 271px;
+        height: 326px;
+        margin: auto;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
 
     
 }
@@ -849,6 +891,30 @@ body {
         color: #171717;
         
     }
+    /*SECCION CONTACTAME*/
+    .inicio_contacto {
+        width: auto;
+        height: auto;
+        margin: 0px;
+    }
+    .inicio_contenido_CONTACTO {
+        display: grid;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center ;
+        margin-bottom: 60px;
+    }
+    .inicio_contenido_CONTACTO h1 {
+        font-size: 1.9rem;
+    }
+    .formulario {
+        width: 271px;
+        height: 326px;
+        margin: auto;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
 }
     @media only screen and (min-width: 1360px) and (max-width: 1800px) {
     .footer__container {
@@ -933,6 +999,27 @@ body {
         background-color: #cbae88;
         color: #171717;
         
+    }
+    /*SECCION CONTACTAME*/
+    .inicio_contacto {
+        width: auto;
+        height: auto;
+        margin: 0px;
+    }
+    .inicio_contenido_CONTACTO {
+        display: grid;
+        margin-top: 60px;
+        justify-content: center;
+        align-items: center ;
+        margin-bottom: 60px;
+    }
+    .formulario {
+        width: 271px;
+        height: 326px;
+        margin: auto;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
     }
     }
 
