@@ -88,34 +88,34 @@ body {
     padding: 10px 10px;
     justify-content: space-around;
 }
-.inicio-contenido h1 {
+.inicio__contenido h1 {
     font-size: 3rem;
     color: #cbae88;
     text-align:start;
     margin-top: 80px; 
 }
-.h1edit {
+.inicio__h1edit {
     color: #D7C8B6;
     font-style: bold;
 }
-.inicio-contenido h2 {
+.inicio__contenido h2 {
     font-size: 2rem;
     color: #F6E3CA;
     margin-top: 100px;
 }
-.compu {
+.inicio__compu {
     display: flex;
     background-color: #F6E3CA;
     border-radius: 100px;
 }
 
-.compu img{
+.inicio__compu img{
     width: auto;
     border-radius: 100px;
     padding: 10px;
     
 }
-.compu img:hover {
+.inicio__compu img:hover {
     filter: brightness(.5);
     transition: 1s;
 }
@@ -167,7 +167,7 @@ body {
     padding: 5px;
 }
 /* SOBRE MI */
-.section-sobremi {
+.section__sobremi {
     display: flex;
     background-color: #2a2929;
     width: auto;
@@ -179,7 +179,7 @@ body {
     padding: 10px 10px;
     justify-content: space-around;
 }
-.texto-es h1 {
+.section__texto__es h1 {
     width: auto;
     text-align: center;
     font-size: 25px;
@@ -188,7 +188,7 @@ body {
 
     
 }
-.texto-en h2 {
+.section__texto__en h2 {
     width: auto;
     text-align: center;
     font-size: 25px;
@@ -196,7 +196,7 @@ body {
     padding: 20px 20px;
     
 }
-.texto-es p {
+.section__texto__es p {
     margin-top: 20px;
     margin-right: 20px;
     font-size: 20px;
@@ -206,7 +206,7 @@ body {
     background-color: #171717;
     text-align: justify;
 }
-.texto-en p {
+.section__texto__en p {
     margin-top: 20px;
     margin-right: 20px;
     font-size: 20px;
@@ -216,12 +216,12 @@ body {
     background-color: #171717;
     text-align: justify;
 }
-.fondoimagen {
+.section__fondoimagen {
     
     background-color: #171717;
     border-radius: 18px;
 }
-.fondoimagen img {
+.section__fondoimagen img {
     position: relative;
     width: fit-content;
     left: 40px;
@@ -230,7 +230,7 @@ body {
     
 }
 
-.fondoimagen:hover {
+.section__fondoimagen:hover {
     filter: brightness(.5);
     transition: 1s;
 }
@@ -380,46 +380,46 @@ body {
         justify-self: center;
 
     }
-    .inicio-contenido {
+    .inicio__contenido {
         width: 90%;
     }
     
-    .inicio-contenido h1 {
+    .inicio__contenido h1 {
         width: 95%;
         font-size: 2rem;
         text-align: center;
         display: inline-block; 
     }
-    .inicio-contenido h2 {
+    .inicio__contenido h2 {
         font-size: 1.5rem;
         text-align: center;
     }
-    .compu {
+    .inicio__compu {
         margin-top: 100px;
         margin-bottom: 200px;
         margin-right: 3px; 
         width: 350px;
         height: 225px;
     }
-    .compu img {
+    .inicio__compu img {
         width: 350px;
         height: fit-content;
     }
 
      /* SECCION SOBRE MI */
 
-    .section-sobremi {
+    .section__sobremi {
         display: grid;
         grid-template-rows: auto;
         height: auto;
         width: auto;
         gap: 30px;
     }
-    .texto-es {
+    .section__texto__es {
         justify-content: center;
         align-items: center;
     }
-    .texto-es p {
+    .section__texto__es p {
         width: auto;
         height: auto;
         margin-left: 19px;
@@ -428,7 +428,7 @@ body {
         color: #D7C8B6;
         padding: 10px 10px;
     }
-    .texto-en p {
+    .section__texto__en p {
         width: auto;
         height: auto;
         margin-left: 19px;
@@ -437,12 +437,12 @@ body {
         padding: 10px 10px;
         }
     
-    .fondoimagen {
+    .section__fondoimagen {
         width: 90%;
         margin-left: 15px;
         margin-bottom: 20px;
     }
-    .fondoimagen img {
+    .section__fondoimagen img {
         width: 90%;
         left: 20px;
         }
@@ -562,43 +562,43 @@ body {
         justify-content: center;
         align-items: center;
     }
-    .inicio-contenido {
+    .inicio__contenido {
         width: 90%;
     }
-    .inicio-contenido h1 {
+    .inicio__contenido h1 {
         width: 95%;
         font-size: 2.3rem;
         text-align: center;
         margin-left: 5px;
     }
-    .inicio-contenido h2 {
+    .inicio__contenido h2 {
         font-size: 1.8rem;
         text-align: center;
         justify-content: center;
     }
-    .compu {
+    .inicio__compu {
         margin-top: 100px;
         margin-bottom: 200px;
         margin-right: 3px; 
     }
-    .compu img {
+    .inicio__compu img {
         width: 350px;
         height: cover;
     }
 
     /*SECCIÓN SOBRE MI*/
-    .section-sobremi {
+    .section__sobremi {
         display: grid;
         grid-template-rows: auto;
         height: auto;
         width: auto;
         gap: 30px;
     }
-    .texto-es {
+    .section__texto__es {
         justify-content: center;
         align-items: center;
     }
-    .texto-es p {
+    .section__texto__es p {
         width: 100%;
         height: auto;
         margin-top: 20px;
@@ -606,7 +606,7 @@ body {
         color: #D7C8B6;
         padding: 10px 10px;
     }
-    .texto-en p {
+    .section__texto__en p {
         width: 100%;
         height: auto;
         margin-top: 20px;
@@ -614,7 +614,7 @@ body {
         padding: 10px 10px;
     }
     
-    .fondoimagen {
+    .section__fondoimagen {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -623,7 +623,7 @@ body {
         margin-right: auto;
         margin-bottom: 20px;
     }
-    .fondoimagen img {
+    .section__fondoimagen img {
         width: 90%;
         margin-right: 15px;
     }
@@ -749,26 +749,26 @@ body {
         align-items: center;
         gap: 100px;
     }
-    .inicio-contenido {
+    .inicio__contenido {
         width: 90%;
     }
-    .inicio-contenido h1 {
+    .inicio__contenido h1 {
         width: 95%;
         font-size: 2.3rem;
         text-align: center;
         margin-left: 5px;
     }
-    .inicio-contenido h2 {
+    .inicio__contenido h2 {
         font-size: 1.8rem;
         text-align: center;
         justify-content: center;
     }
-    .compu {
+    .inicio__compu {
         margin-bottom: 200px;
     }
 
     /*SECCION SOBREMI*/
-    .section-sobremi {
+    .section__sobremi {
         display: grid;
         grid-template-rows: auto;
         height: auto;
@@ -777,11 +777,11 @@ body {
         width: 740px;
         gap: 30px;
     }
-    .texto-es {
+    .section__texto__es {
         justify-content: center;
         align-items: center;
     }
-    .texto-es p {
+    .section__texto__es p {
         width: 100%;
         height: auto;
         margin-top: 20px;
@@ -789,7 +789,7 @@ body {
         color: #D7C8B6;
         padding: 10px 10px;
     }
-    .texto-en p {
+    .section__texto__en p {
         width: 100%;
         height: auto;
         margin-top: 20px;
@@ -797,7 +797,7 @@ body {
         padding: 10px 10px;
     }
     
-    .fondoimagen {
+    .section__fondoimagen {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -806,7 +806,7 @@ body {
         margin-right: auto;
         margin-bottom: 20px;
     }
-    .fondoimagen img {
+    .section__fondoimagen img {
         width: 90%;
         margin-right: 15px;
     }
